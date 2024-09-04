@@ -13,7 +13,7 @@ function Navbar() {
               <a href='/live'>Live</a>
             </h1>
             <h1 className='font-medium text-xl text-white'>
-              <a href='/'>Upcoming</a>
+              <a href='/upcoming'>Upcoming</a>
             </h1>
           </div>
           <div className='text-white'>
