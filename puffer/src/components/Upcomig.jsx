@@ -34,7 +34,7 @@ const Upcoming = () => {
   return (
     <div className="bg-black min-h-screen flex flex-col items-center text-white">
       <div className="flex flex-col items-center mt-[40px] text-center">
-        <h1 className="text-4xl font-extrabold mb-4">Discover Unique Digital Art</h1>
+        <h1 className="text-4xl font-extrabold mb-4">Discover Unique  Arts on Solana Blockchain</h1>
         <p className="text-lg mb-6 max-w-xl">
           Explore and bid on one-of-a-kind digital artworks on the Sol blockchain.
         </p>
@@ -57,7 +57,7 @@ const Upcoming = () => {
           src="https://nextui.org/images/hero-card-complete.jpeg"
         />
       </div>
-      <div className="flex-1 flex flex-col justify-between border border-white p-4">
+      <div className="flex-1 flex flex-col justify-between border border-white p-4 rounded-lg">
         <div>
           <h1 className="text-2xl font-bold">Chromatic Fusion</h1>
           <p className="text-base mt-4">
@@ -74,6 +74,29 @@ const Upcoming = () => {
           <p className="text-xl font-semibold">3Days 12hours</p>
           </div>
         </div>
+        <div>
+        <p className='mt-[20px] font-semibold text-lg text-gray-300'>Bid History</p>
+        <div className='border border-white mt-[10px] rounded-md bg-gray-600 '>
+        <div className='flex justify-between ml-[10px] mr-[10px] mt-[10px]'>
+        <p>2023-06-10 12:34 PM</p>
+        <p>1.2 SOL</p>
+        </div>
+        <div className='flex justify-between ml-[10px] mr-[10px] mt-[10px]'>
+        <p>2023-06-09 10:22 AM</p>
+        <p>1.1 SOL</p>
+        </div>
+        <div className='flex justify-between ml-[10px] mr-[10px] mt-[10px]'>
+        <p>2023-06-08 3:45 PM</p>
+        <p>1.0 SOL</p>
+        </div>
+        </div>
+        </div>
+        <div className="flex justify-center">
+        <button className="mt-[20px] w-2/3 rounded-lg border border-2 bg-purple-600 text-xl font-bold">
+          Place Bid
+        </button>
+      </div>
+      
       </div>
     </div>
     

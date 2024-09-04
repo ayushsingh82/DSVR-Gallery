@@ -57,7 +57,7 @@ const Live = () => {
           src="https://nextui.org/images/hero-card-complete.jpeg"
         />
       </div>
-      <div className="flex-1 flex flex-col justify-between border border-white p-4">
+      <div className="flex-1 flex flex-col justify-between border border-white p-4 rounded-lg">
         <div>
           <h1 className="text-2xl font-bold">Cosmic Bloom</h1>
           <p className="text-lg font-medium">by Jane Doe</p>
