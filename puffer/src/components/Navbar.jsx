@@ -9,11 +9,11 @@ function Navbar() {
             <a href='/'>DSVR</a>
           </div>
           <div className='flex justify-center flex-1 space-x-8 text-center'>
-            <h1 className='font-bold text-2xl text-white'>
-              <a href='/'>Dashboard</a>
+            <h1 className='font-medium text-xl text-white'>
+              <a href='/live'>Live</a>
             </h1>
-            <h1 className='font-bold text-2xl text-white'>
-              <a href='/'>Explore</a>
+            <h1 className='font-medium text-xl text-white'>
+              <a href='/'>Upcoming</a>
             </h1>
           </div>
           <div className='text-white'>
