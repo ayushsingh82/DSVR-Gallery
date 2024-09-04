@@ -14,7 +14,7 @@ export default {
   theme: {
     extend: {},
   },
- c
+ 
   plugins: [addVariablesForColors,nextui()],
 }
 
