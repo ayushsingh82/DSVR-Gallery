@@ -81,6 +81,27 @@ const Live = () => {
       </div>
     </div>
     
+    <div className="space-y-6 border border-white rounded-lg mb-[50px] px-[60px] py-[20px]">
+  <div className="space-y-2">
+    <h2 className="text-2xl font-semibold tracking-tighter">Checkout</h2>
+    <p className="text-muted-foreground">Review your order and complete the purchase.</p>
+    <div></div>
+  </div>
+  
+
+  
+  <form className="space-y-4">
+    <div className="grid gap-2">
+      <label htmlFor="wallet" className="text-sm font-medium">Wallet Address</label>
+      <input id="wallet" type="text" placeholder="Enter your wallet address" className="block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm px-[10px] text-black" />
+    </div>
+    <button type="submit" className="w-full bg-blue-600 text-white font-bold py-2 px-4 rounded-md hover:bg-blue-700">
+      Complete Purchase
+    </button>
+    <p className="text-muted-foreground mb-[50px]">Review the details of your purchase.</p>
+  </form>
+</div>
+
 
     </div>
   );
