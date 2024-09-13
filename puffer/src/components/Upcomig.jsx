@@ -101,6 +101,42 @@ const Upcoming = () => {
     </div>
     
 
+    <div className="space-y-6 border border-white rounded-lg mb-[50px] px-[60px] py-[20px] shadow shadow-xl shadow-blue-500">
+    <div className="space-y-2">
+      <h2 className="text-xl font-semibold tracking-tighter">Bidding History</h2>
+      
+      <div>
+      <div className='mt-[30px] border border-2 rounded rounded-lg px-[5px] border-blue-500'>
+      <h1 className='font-medium'>Ethereal Abstraction</h1>
+      <p className='text-sm'>
+      <span>2023-06-15 12:00 PM UTC</span>
+      <span className="ml-8 text-md font-semibold">1.2 SOL</span>
+      </p>
+      </div>
+
+      <div className='mt-[30px] border border-2 rounded rounded-lg px-[5px] border-blue-500'>
+      <h1 className='font-medium'>Celestial Dream</h1>
+      <p className='text-sm'>
+      <span>2023-06-15 12:00 PM UTC</span>
+      <span className="ml-8 text-md font-semibold">1.2 SOL</span>
+      </p>
+      </div>
+
+      <div className='mt-[30px] border border-2 rounded rounded-lg px-[5px] border-blue-500'>
+      <h1 className='font-medium'>Chromatic Fusion</h1>
+      <p className='text-sm'>
+      <span>2023-06-15 12:00 PM UTC</span>
+      <span className="ml-8 text-md font-semibold">1.2 SOL</span>
+      </p>
+      </div>
+
+      </div>
+    </div>
+    
+  
+  </div>
+  
+
     </div>
   );
 }

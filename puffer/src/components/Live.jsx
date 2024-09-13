@@ -81,7 +81,7 @@ const Live = () => {
       </div>
     </div>
     
-    <div className="space-y-6 border border-white rounded-lg mb-[50px] px-[60px] py-[20px]">
+    <div className="space-y-6 border border-white rounded-lg mb-[50px] px-[60px] py-[20px] shadow shadow-xl shadow-blue-500">
   <div className="space-y-2">
     <h2 className="text-2xl font-semibold tracking-tighter">Checkout</h2>
     <p className="text-muted-foreground">Review your order and complete the purchase.</p>
